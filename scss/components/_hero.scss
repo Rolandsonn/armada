@@ -1,0 +1,57 @@
+.hero {
+  background-image: url(../../images/main_bg-202404081190.png);
+  height: 100vh;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero__cont {
+  display: flex;
+  width: 1700px;
+}
+.hero__cont-left {
+  margin-top: 150px;
+}
+.hero__title {
+  width: 600px;
+  color: white;
+  font-family: Gilroy;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 77.38px;
+}
+.hero__title-line {
+  font-family: Gilroy;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 14.51px;
+}
+.hero__text {
+  margin-top: 10px;
+  width: 600px;
+  font-family: Gilroy;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 41.76px;
+  color: white;
+}
+.hero__button {
+  margin-top: 20px;
+  padding: 15px 60px;
+  background: #ffc957;
+}
+
+.hero__cont-right {
+  width: 800px;
+  margin-top: 150px;
+  display: flex;
+ justify-content: end;
+
+}
+.hero__list { 
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
