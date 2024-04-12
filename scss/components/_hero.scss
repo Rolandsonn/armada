@@ -1,5 +1,5 @@
 .hero {
-  background-image: url(../../images/main_bg-202404081190.png);
+  background-image: url(../../../armada/images/main_bg-202404081190.png);
   height: 100vh;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -8,7 +8,7 @@
 
 .hero__cont {
   display: flex;
-  max-width: 1700px;
+  width: 1700px;
   margin: 0 auto;
 }
 
@@ -33,7 +33,7 @@
 .hero__title-line {
   font-size: 100px;
   font-weight: 700;
-  line-height: 1.15; 
+  line-height: 1.15;
 }
 
 .hero__text {
@@ -54,7 +54,7 @@
   width: 800px;
   margin-top: 150px;
   display: flex;
-  justify-content: flex-end; 
+  justify-content: flex-end;
 }
 
 .hero__list {
