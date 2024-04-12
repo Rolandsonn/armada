@@ -1,0 +1,34 @@
+.line {
+  text-align: center;
+  border-bottom: 1px solid black;
+  margin: 50px 0;
+}
+
+.text {
+  font-size: 64px;
+  display: inline-block;
+  padding: 0 5px 5px;
+  color: black;
+}
+
+.grid-container {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 1300px;
+  gap: 20px;
+  margin: 0 auto;
+}
+
+.jobs__button {
+  display: block;
+  cursor: pointer;
+  padding: 10px 140px;
+  margin: 0 auto;
+  background-color: #65256f;
+  font-family: Gilroy;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.19px;
+  color: #ffff;
+}

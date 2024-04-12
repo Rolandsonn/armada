@@ -1,0 +1,87 @@
+.team__subtitle {
+  margin-top: 20px;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1.17;
+  text-align: left;
+  color: black;
+}
+.team__form-subtitle {
+  margin-top: 20px;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1.17;
+  text-align: center;
+  color: black;
+}
+
+.team__text {
+  font-family: Gilroy;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 27.84px;
+  text-align: left;
+  color: #6f6c6c;
+}
+.team__form-text {
+  font-family: Gilroy;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20.88px;
+  text-align: center;
+  color: #6f6c6c;
+}
+.team__form-name {
+  margin-top: 20px;
+  padding: 20px 40px;
+  font-family: Gilroy;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 20.88px;
+  text-align: left;
+  color: #6f6c6c;
+}
+.team__form-tel {
+  padding: 20px 40px;
+  margin-top: 20px;
+  font-family: Gilroy;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.16;
+  text-align: left;
+  color: #6f6c6c;
+}
+
+.team__cont {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1600px;
+  margin: 0 auto;
+}
+
+.team__request {
+  margin-bottom: 50px;
+  padding-left: 40px;
+}
+
+.team__form {
+  width: 1100px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.team__button {
+  margin: 40px auto 50px;
+  margin-left: 32%;
+  padding: 10px 140px;
+  background-color: #65256f;
+  font-family: Gilroy;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.17;
+  color: #ffff;
+}
