@@ -52,12 +52,13 @@
 .service__subtitle,
 .service__tel {
   text-align: center;
-  margin-left: 0;
+
 }
 
 .service__list-img {
   margin-bottom: 20px;
   margin-top: 40px;
+  margin-left: 40px;
 }
 
 .service__subtitle {
@@ -66,10 +67,11 @@
   font-weight: 400;
   line-height: 1.2;
   margin-bottom: 20px;
+  margin-left: 40px;
 }
 
 .service__tel {
-  margin-left: 0;
+  margin-left: 70px;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.2;

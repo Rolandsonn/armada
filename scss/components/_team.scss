@@ -34,7 +34,8 @@
   color: #6f6c6c;
 }
 .team__form-name {
-  
+  margin-top: 20px;
+  padding: 20px 40px;
   font-family: Gilroy;
   font-size: 18px;
   font-weight: 300;
@@ -46,7 +47,7 @@
   padding: 20px 40px;
   margin-top: 20px;
   font-family: Gilroy;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 1.16;
   text-align: left;
@@ -67,6 +68,7 @@
 
 .team__form {
   width: 1100px;
+  height: 50px;
   display: flex;
   justify-content: center;
   gap: 30px;
