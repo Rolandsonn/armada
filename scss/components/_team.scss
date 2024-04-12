@@ -1,0 +1,54 @@
+.team__subtitle,
+.team__form-subtitle {
+  margin-top: 20px;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1.17;
+  text-align: center;
+  color: black;
+}
+
+.team__text,
+.team__form-text,
+.team__form-name,
+.team__form-tel {
+  margin-top: 20px;
+  font-family: Gilroy;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.16;
+  text-align: center;
+  color: #6f6c6c;
+}
+
+.team__cont {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1500px; 
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.team__request {
+  margin-bottom: 50px;
+  padding-left: 40px;
+}
+
+.team__form {
+  width: 1100px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.team__button {
+  margin: 20px auto 50px;
+  padding: 10px 140px;
+  background-color: #65256f;
+  font-family: Gilroy;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.17;
+  color: #ffff;
+}

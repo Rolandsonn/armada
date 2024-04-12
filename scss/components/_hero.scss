@@ -8,34 +8,42 @@
 
 .hero__cont {
   display: flex;
-  width: 1700px;
+  max-width: 1700px;
+  margin: 0 auto;
 }
+
 .hero__cont-left {
   margin-top: 150px;
 }
-.hero__title {
-  width: 600px;
-  color: white;
+
+.hero__title,
+.hero__title-line,
+.hero__text {
   font-family: Gilroy;
+  color: white;
+}
+
+.hero__title {
   font-size: 64px;
   font-weight: 700;
   line-height: 77.38px;
+  width: 600px;
 }
+
 .hero__title-line {
-  font-family: Gilroy;
   font-size: 100px;
   font-weight: 700;
-  line-height: 14.51px;
+  line-height: 1.15; 
 }
+
 .hero__text {
   margin-top: 10px;
-  width: 600px;
-  font-family: Gilroy;
   font-size: 36px;
   font-weight: 400;
   line-height: 41.76px;
-  color: white;
+  width: 600px;
 }
+
 .hero__button {
   margin-top: 20px;
   padding: 15px 60px;
@@ -46,10 +54,10 @@
   width: 800px;
   margin-top: 150px;
   display: flex;
- justify-content: end;
-
+  justify-content: flex-end; 
 }
-.hero__list { 
+
+.hero__list {
   margin-top: 80px;
   display: flex;
   flex-direction: column;

@@ -1,9 +1,9 @@
 .line {
   text-align: center;
   border-bottom: 1px solid black;
-  margin-bottom: 50px;
-  margin-top: 50px;
+  margin: 50px 0;
 }
+
 .text {
   font-size: 64px;
   display: inline-block;
@@ -14,11 +14,11 @@
 .service__maket {
   width: 268px;
   height: 403px;
-  top: 1044px;
-  left: 134px;
+  margin: 0 auto;
   gap: 20px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
+
 .service__wrapper {
   gap: 50px;
   display: flex;
@@ -26,11 +26,12 @@
   justify-content: center;
   margin-bottom: 100px;
 }
+
 .service__title {
   font-family: Gilroy;
   font-size: 68px;
   font-weight: 400;
-  line-height: 55.68px;
+  line-height: 1.2;
   text-align: center;
   color: #000000;
 }
@@ -40,33 +41,37 @@
   font-size: 15px;
   width: 200px;
   font-weight: 400;
-  line-height: 18.56px;
+  line-height: 1.25;
   text-align: center;
   color: #5e5e5e;
-  margin: 0% auto;
+  margin: 0 auto;
   margin-bottom: 50px;
 }
-.service__list-img {
+
+.service__list-img,
+.service__subtitle,
+.service__tel {
   text-align: center;
-  margin-left: 40px;
+  margin-left: 0;
+}
+
+.service__list-img {
   margin-bottom: 20px;
   margin-top: 40px;
 }
+
 .service__subtitle {
-  font-family: Gilroy;
   width: 200px;
   font-size: 18px;
   font-weight: 400;
-  line-height: 20.88px;
-  text-align: center;
-  margin-left: 40px;
+  line-height: 1.2;
   margin-bottom: 20px;
 }
+
 .service__tel {
-  margin-left: 60px;
-  font-family: Gilroy;
+  margin-left: 0;
   font-size: 14px;
   font-weight: 400;
-  line-height: 16.24px;
+  line-height: 1.2;
   color: #753ed6;
 }

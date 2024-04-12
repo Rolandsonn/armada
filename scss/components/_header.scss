@@ -2,15 +2,21 @@
   background-color: #65256f;
   display: flex;
 }
-.header__top-text {
-  margin-right: 400px;
+
+.header__top-text,
+.tel {
   font-family: Gilroy;
   font-size: 14px;
   font-weight: 600;
   line-height: 16.7px;
   text-align: left;
+}
+
+.header__top-text {
+  margin-right: 400px;
   color: #ffb700;
 }
+
 .header__top-help {
   font-family: Gilroy;
   font-size: 14px;
@@ -19,15 +25,15 @@
   text-align: right;
   color: white;
 }
+
 .tel {
-  font-family: Gilroy;
   font-size: 16px;
   font-weight: 500;
   line-height: 18.83px;
-  text-align: left;
   color: #ffb700;
   margin-left: 20px;
 }
+
 .header__div {
   width: 1200px;
   display: flex;
@@ -38,24 +44,26 @@
   display: flex;
   justify-content: space-between;
 }
+
 .header__bottom {
   width: 1500px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin: 10px 0;
 }
+
 .header__list {
   display: flex;
-  justify-content: right;
+  justify-content: flex-end;
   gap: 35px;
-  margin-left: 200px;
-  .header__item {
-    margin-top: 15px;
-    font-family: Montserrat;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 17.07px;
-  }
 }
+
+.header__item {
+  margin-top: 15px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17.07px;
+}
+
 .header__button {
   margin-right: 170px;
   border-radius: 5px;
