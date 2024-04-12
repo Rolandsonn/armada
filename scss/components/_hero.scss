@@ -1,0 +1,65 @@
+.hero {
+  background-image: url(../../images/main_bg-202404081190.png);
+  height: 100vh;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero__cont {
+  display: flex;
+  width: 1700px;
+  margin: 0 auto;
+}
+
+.hero__cont-left {
+  margin-top: 150px;
+}
+
+.hero__title,
+.hero__title-line,
+.hero__text {
+  font-family: Gilroy;
+  color: white;
+}
+
+.hero__title {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 77.38px;
+  width: 600px;
+}
+
+.hero__title-line {
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.hero__text {
+  margin-top: 10px;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 41.76px;
+  width: 600px;
+}
+
+.hero__button {
+  margin-top: 20px;
+  padding: 15px 60px;
+  background: #ffc957;
+}
+
+.hero__cont-right {
+  width: 800px;
+  margin-top: 150px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero__list {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
